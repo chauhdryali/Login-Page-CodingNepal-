@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Form - Page Two</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="title-text">
@@ -26,8 +27,22 @@
             <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
         </div>
     </div>
+    <h1 id="h2">Ali Haider</h1>
+    <script>
+        let students = `[
+    {
+        "name": "Ali Haider",
+        "age": 25
+    },
 
+    {
+        "name":"Abid Hussain",
+        "age":35
+    }
+]`
+        console.log(JSON.parse(students)[0].age);
 
-
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
